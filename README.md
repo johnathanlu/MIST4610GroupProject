@@ -16,6 +16,21 @@ Our scenario is to create the “Last-Mile” Urban Logistics (Drone Delivery) s
 ## Data Model
 <img width="1312" height="848" alt="Drone_Actual" src="https://github.com/user-attachments/assets/20720547-6420-4450-b303-797b1ac7eed1" />
 
+
+A drone delivery system manages drones, routes, technicians, packages, maintenance logs, technicians, and charging stations.
+
+Drones are used to deliver packages. The drone table includes information regarding model type, carrying capacity, speed, flight status, charging status, and total hours. This is important information used to see which drones are good to go to deliver the packages to the customers. Drones are charged via charging stations. The charging station table contains information about charger availability, station type, and charging status of the drone. A port can have many charging stations but a charging station can only have one port. A charging station can hold multiple drones, and a drone can visit multiple charging stations. Each instance of a drone charging is called a charging session. 
+
+Technicians help upkeep the drones and perform regular maintenance. The technician table includes information about the technician’s name, phone, pay, and hours worked. A technician can work on many drones, and a drone requires multiple technicians to be worked on due to the many complicated parts of a drone. A maintenance log is created for every instance that a drone is worked on by a technician. The MaintenanceLog contains the maintenancelogID, technicianID, hoursAtMaintenance, maintenanceType, maintenanceDetails, maintenanceStart, and maintenanceEnd. 
+
+A lead technician works at one port, but multiple technicians can also work at this one port. The lead technician acts as a ‘boss’ in this sense. Hence there is a one to one relationship between the technicians and ports table as well as a one to many from ports to technicians. 
+ 
+Items are inside a package. A port can contain multiple different items, and the same item can be at multiple ports. A port inventory log is used to keep track of the quantity in stock of a particular item at a particular port. Additionally, we created a PackageItems table as the associative entity between PortInventory and PackageDetails. There are multiple PackageItems records that link to one PortInventory, so multiple PackageItems can reference the same inventory item.  
+
+Drones deliver packages from ports via routes. A route belongs to one port but a port has many routes.  The route table has information about which unique route it is, where the route ends, and whether the route is available or not. If a route is already occupied or there is a shorter route to deliver the package to the customer, then this table will indicate this to us. A port can hold many drones, but a drone belongs to a specific port.  A drone can go on multiple routes, and each route can have multiple drones. A flightlog is created for each instance a specific drone is on a specific route.
+
+A port can hold many packages, and each package will only ever belong to one port. Each package has a log known as “packagedetails” that keeps track of the package’s date of packaging and the delivery status.  The packagedetails reference a single address, but an address can receive multiple packages. Additionally, addresses each reference one customer, but a customer can have multiple addresses (work, divorce, etc.)  A single flightlog is created for each package. A customer can have many packages, but each package belongs to a specific customer. 
+
 ## Data Dictionary
 <img width="723" height="480" alt="image" src="https://github.com/user-attachments/assets/2e743d7f-c677-476c-ac01-43c153aa5ebc" />
 
@@ -50,3 +65,5 @@ Our scenario is to create the “Last-Mile” Urban Logistics (Drone Delivery) s
 ## Database Information
 
 Database Name: ns_71152_3
+
+Additional information: Each query listed above is marked in the database using stored procedures which can be called using the following format: CALL Group3_Q1();
