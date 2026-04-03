@@ -14,8 +14,7 @@ Our scenario is to create the “Last-Mile” Urban Logistics (Drone Delivery) s
 
 
 ## Data Model
-<img width="1106" height="702" alt="Drones_Final " src="https://github.com/user-attachments/assets/44f31ac3-0119-4c92-88ac-538a3319bd0b" />
-
+<img width="1312" height="848" alt="Drone_Actual" src="https://github.com/user-attachments/assets/20720547-6420-4450-b303-797b1ac7eed1" />
 
 ## Data Dictionary
 
