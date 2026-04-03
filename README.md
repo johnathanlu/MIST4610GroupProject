@@ -62,6 +62,70 @@ A port can hold many packages, and each package will only ever belong to one por
 
 ## List of Queries
 
+<img width="713" height="844" alt="image" src="https://github.com/user-attachments/assets/a8fe3b3f-c1f0-4cc3-a4e2-9b4f3cd41322" />
+
+
+1.
+<img width="1175" height="394" alt="image" src="https://github.com/user-attachments/assets/6e1b7cb9-43c1-4bdf-b664-baefa0d4d87a" />
+
+Query 1 lists the drone ID, model, and flight status of all drones that never had maintenance.
+This query helps managers track the newest drones they acquired, seeing how they perform without maintenance or repairs. This provides information on the longevity of each drone model, helping managers determine which models to purchase if additional drones are required.
+
+2.
+<img width="1339" height="842" alt="image" src="https://github.com/user-attachments/assets/eb269ee1-dbdc-41f0-9cf4-d51721ec8278" />
+
+Query 2 lists the technician name and the amount of hours they worked in the second half of the month. 
+This will be used by managers to determine their pay for the period as well as track employee performance. Those that work significantly more hours than others may be considered for bonuses or promotions. This can also be used to track direct labor hours on budgeting sheets.
+
+3.
+<img width="956" height="631" alt="image" src="https://github.com/user-attachments/assets/ecb8bde0-d162-41cc-8b82-d5361c0a3372" />
+
+Query 3 lists the package ID, customer tied to the package, weight of the package, status of the package, and weight category created based on the weight.
+This query helps with the labeling and shipping of the packages. Heavy packages can be labeled for the awareness of the people handling it, giving them a cautionary warning. Additionally, package weights categories can be used to determine different shipping medians (ex. plane vs truck) and be used to somewhat distribute weight evenly when placing in vehicles.
+
+4.
+<img width="1011" height="450" alt="image" src="https://github.com/user-attachments/assets/4e48846d-62a6-4f2a-826f-e676e4a97413" />
+
+Query 4 lists the customer name, the amount of packages they have if they have more than one, and the total weight of the combined packages. 
+This could be used by the packaging team to determine if it is optimal to ship a customer's packages together or separate to reduce shipping fees.
+
+5.
+<img width="1014" height="484" alt="image" src="https://github.com/user-attachments/assets/a74f85cd-09c8-49cf-a051-f1932f1bfe54" />
+
+Query 5 lists the port name and location for ports in Athens that have drones that are actively in flight. 
+This is useful to managers so that they can actively monitor flight activity within different regions. This can be easily altered to gather the same information for different cities or regions. Managers can also use this for incident response such as inclement weather that could disrupt service. 
+
+6.
+<img width="1316" height="728" alt="image" src="https://github.com/user-attachments/assets/60392a5a-0f81-47c4-9d31-3f50580b3df1" />
+
+Query 6 lists the drone ID, model of the drone, and the amount of times they have had maintenance performed on them. 
+This query can be used to help track the age and amount of hours each drone has flown for logistic purposes. Those with more maintenance are inherently older. If drones reach a certain maintenance threshold or are not functioning properly, managers can retire and replace them with new drones.
+
+7.
+<img width="1140" height="703" alt="image" src="https://github.com/user-attachments/assets/db4637e8-28dd-48e9-8ccd-6366847b4c94"/>
+ 
+Query 7 lists the port name, specific name, and amount of stock if the port has less than 100 of the item.
+This query can be used to help determine item allocation. Ports low in stock of a certain item will likely need it sooner than others, helping managers determine which ports get priority shipping for certain items. 
+
+8.
+<img width="1323" height="771" alt="image" src="https://github.com/user-attachments/assets/6b47c083-bbd3-4bc6-9f6f-f9f7c786deaf" />
+
+Query 8 lists the droneID, flightDateTime, completionDateTIme, the number of days that a delivery took, and categorizes the deliveries as same day, next day, within 3 days, or more than three days. 
+This query can be used by managers to track any flight duration irregularities. By grouping flights by duration managers can immediately see if the drone fleet is meeting its service requirements. The manager can use this over time to see if delivery speeds are improving or declining over time. 
+
+9.
+<img width="998" height="376" alt="image" src="https://github.com/user-attachments/assets/5883792c-d039-4c3a-aa1f-8f4bfd423854" />
+
+Query 9 joins the ports and technicians table to list the port info along with the lead technicians name and salary. 
+This is useful to managers so that they can monitor their salary distribution across different hubs. They can compare the location of the port and the salary to determine if the compensation provided to the lead technicians is consistent with the cost of living or with the specific responsibilities of that port. 
+
+10.
+<img width="768" height="505" alt="image" src="https://github.com/user-attachments/assets/b85fc1af-f199-4909-8c21-b67b618f799a" />
+
+Query 10  lists the customer name, packageID, status, and weight of packages that exceed the calculated average weight of packages. 
+This information helps managers identify trends in high load orders. This can help with maintenance forecasting as frequent high load flights but stress on the mechanical components of the drone fleet. Weight also affects drone range and speed which can be processed by managers to determine appropriate surcharges and service expectations for better transparency with customers. 
+
+
 ## Database Information
 
 Database Name: ns_71152_3
