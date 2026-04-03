@@ -17,35 +17,33 @@ Our scenario is to create the “Last-Mile” Urban Logistics (Drone Delivery) s
 <img width="1312" height="848" alt="Drone_Actual" src="https://github.com/user-attachments/assets/20720547-6420-4450-b303-797b1ac7eed1" />
 
 ## Data Dictionary
-<img width="796" height="526" alt="image" src="https://github.com/user-attachments/assets/0e0a79eb-fe01-454c-9ba8-61fdb0e5c25e" />
+<img width="723" height="480" alt="image" src="https://github.com/user-attachments/assets/2e743d7f-c677-476c-ac01-43c153aa5ebc" />
 
-<img width="800" height="449" alt="image" src="https://github.com/user-attachments/assets/79671ffe-6a57-4e16-8028-8ba0e5ebc458" />
+<img width="722" height="407" alt="image" src="https://github.com/user-attachments/assets/da29c4fd-e1e9-4ea9-9ed3-ec25469ad1f2" />
 
-<img width="802" height="298" alt="image" src="https://github.com/user-attachments/assets/324658f5-f93f-4500-a931-603b718d81c9" />
+<img width="737" height="272" alt="image" src="https://github.com/user-attachments/assets/24e0799c-5cce-49b5-b28f-b2d5c159d866" />
 
-<img width="810" height="558" alt="image" src="https://github.com/user-attachments/assets/e5bb5707-809c-4eed-a85c-7b3b7ff969fe" />
+<img width="735" height="500" alt="image" src="https://github.com/user-attachments/assets/3811915f-4691-4f3c-acb6-c43404624fb9" />
 
-<img width="814" height="537" alt="image" src="https://github.com/user-attachments/assets/aa5a57ad-590e-40e0-8ef5-f9cd2458aca7" />
+<img width="732" height="484" alt="image" src="https://github.com/user-attachments/assets/5fed6955-92bc-4201-804d-ab21f5e74b1c" />
 
-<img width="815" height="441" alt="image" src="https://github.com/user-attachments/assets/edef0530-da18-42b2-a7ea-3d5be9f4e054" />
+<img width="737" height="390" alt="image" src="https://github.com/user-attachments/assets/d7d501d7-d6a5-4c96-8e22-37d4dc1ccf15" />
 
-<img width="723" height="714" alt="image" src="https://github.com/user-attachments/assets/c48fae86-938c-48ef-b305-614e62ce58ea" />
+<img width="737" height="722" alt="image" src="https://github.com/user-attachments/assets/467f5f18-f743-49ad-a194-477f6b177b3a" />
 
-<img width="716" height="715" alt="image" src="https://github.com/user-attachments/assets/9ca7d767-df55-48ae-bd7b-50bb0417a164" />
+<img width="715" height="714" alt="image" src="https://github.com/user-attachments/assets/7a9823a8-c902-4572-a100-78c312064968" />
 
-<img width="714" height="716" alt="image" src="https://github.com/user-attachments/assets/e60e5ece-3763-4b6a-9a4b-02857d39597a" />
+<img width="722" height="720" alt="image" src="https://github.com/user-attachments/assets/eb177084-6e2d-4f15-af32-eeff71da1d05" />
 
-<img width="814" height="592" alt="image" src="https://github.com/user-attachments/assets/8f8b1eaf-4841-4c75-b8a3-0ff7b8dbc478" />
+<img width="712" height="866" alt="image" src="https://github.com/user-attachments/assets/dc3832b0-5bd8-4715-a194-0c3b874a5e8a" />
 
-<img width="816" height="648" alt="image" src="https://github.com/user-attachments/assets/3e338cb8-cd88-4388-a8b6-15189a72d510" />
+<img width="615" height="798" alt="image" src="https://github.com/user-attachments/assets/9b388cd1-f6ef-4579-abda-02450e2fe242" />
 
-<img width="621" height="810" alt="image" src="https://github.com/user-attachments/assets/53116ebd-863a-46b1-96ed-3eb98450e203" />
+<img width="623" height="642" alt="image" src="https://github.com/user-attachments/assets/c31d9f4c-e89c-44a5-966a-f7a4c6be4778" />
 
-<img width="737" height="753" alt="image" src="https://github.com/user-attachments/assets/2958f1ef-4af7-4449-ac90-82c9b8e6bf3d" />
+<img width="613" height="512" alt="image" src="https://github.com/user-attachments/assets/cac2226b-d8d3-4ed1-9382-b049f0951c83" />
 
-<img width="786" height="668" alt="image" src="https://github.com/user-attachments/assets/c03c3819-9108-48b2-ac27-cb49b33ad492" />
-
-<img width="684" height="821" alt="image" src="https://github.com/user-attachments/assets/2fb2e381-27a4-4009-8dd3-a84d7898f43c" />
+<img width="612" height="681" alt="image" src="https://github.com/user-attachments/assets/dffd5594-ddf8-4fe2-99b0-42fe3e31de22" />
 
 ## List of Queries
 
